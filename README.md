@@ -1,3 +1,4 @@
+--> [Magyar README](README_HUN.md) <--
 # The Tarot Guide
 
 This project is meant to be an encyclopedia for tarot decks, cards and the meanings behind them.

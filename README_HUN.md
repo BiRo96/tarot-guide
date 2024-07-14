@@ -1,3 +1,4 @@
+--> [English README](README.md) <--
 # The Tarot Guide
 
 Ez a projekt a tarot paklik, kártyák és a mögöttük rejlő jelentések enciklopédiája kíván lenni.
