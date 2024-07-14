@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect, useState } from "react";
-import card_data from "./datas/eng/card_data.json";
-import {imageFinder} from "./components/ImageHandler";
+import card_data from "../datas/eng/card_data.json";
+import {imageFinder} from "../components/ImageHandler";
 import { useParams } from 'react-router-dom';
 
 function Cards() {

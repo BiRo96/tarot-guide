@@ -4,11 +4,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css';
 import App from './App';
 import Layout from './Layout';
-import Home from './Home';
-import NoPage from './NoPage';
+import Home from './pages/Home';
+import NoPage from './pages/NoPage';
 import reportWebVitals from './reportWebVitals';
-import Cards from './Cards';
-import Card from './Card';
+import Cards from './pages/Cards';
+import Card from './pages/Card';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

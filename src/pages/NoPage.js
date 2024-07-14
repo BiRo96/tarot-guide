@@ -1,6 +1,6 @@
-import TheHermit from "./decks/rw_original/thehermit.jpg";
-import TheMoon from "./decks/rw_original/themoon.jpg";
-import TheHangedMan from "./decks/rw_original/thehangedman.jpg";
+import TheHermit from "../decks/rw_original/thehermit.jpg";
+import TheMoon from "../decks/rw_original/themoon.jpg";
+import TheHangedMan from "../decks/rw_original/thehangedman.jpg";
 
 function NoPage(params) {
     // number between 1 and 3
