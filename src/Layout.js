@@ -1,17 +1,11 @@
 import { Outlet, Link } from "react-router-dom";
+import Navbar from "./components/Navbar";
 
 function Layout(params) {
-    return (<>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/home">Home</Link>
-            </li>
-          </ul>
-        </nav>
-  
+    return (<div className="bg-slate-600 h-screen">
+        <Navbar  />
         <Outlet />
-      </>)
+      </div>)
 }
 
 export default Layout
