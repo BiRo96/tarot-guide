@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# The Tarot Guide
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is meant to be an encyclopedia for tarot decks, cards and the meanings behind them.
 
-## Available Scripts
+Since I am interested in these cards for years, at least for the art behind it, I finally managed to take some time to study them.
 
-In the project directory, you can run:
+I would like to make an offline encyclopedia for myself, and the others interested in this "knowledge".
 
-### `npm start`
+My main puprose is to gather all the important and interesting information about the Tarot.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Things I want to reach with this project
+- gather multiple decks...  
+ (Rider-Waite, Crowley Toth, etc)
+    - gather multiple sub-decks  
+    (original art-works, fan made art-works)
+    - we could compare each deck art style and meaning.
+- making offline an data-set for the meanings behind the cards, depending on what deck you use (at first, only the main decks will be my goal).
+- guidance for spread types
+- most of all: all of these goals mentioned above with multilingual support
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Note
+First of all: I'm not an expert.
+- I accept help in this project, if you have ideas, or time to make a new feature.
+- I can't help you understand the Tarot cards, since I'm still learning it too. I read books about it, and I try to make an open-source "digitalized guide book" for myself and you who are interested in it.
+- I hope you will like my effort, and not stealing this project, since it's not protected at all with any license.
+- As I plan, it will always be free, will never contain unwanted or disturbing ads, but I'll try to make an option if you want to give me a tip, or buy me a coffee as an honor for this project...  
+**BUT ONLY** if I will reach a level in its developement, where I can say I feel rightful to accept some kindness of yours...  
