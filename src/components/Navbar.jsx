@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link } from 'react-router-dom';
+import { appMainURL } from "../components/UrlHandler";
 
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
-
-    let appMainURL = "/enc/"
 
     const menuItems = [
         {name: "Home", url: "home"},
@@ -32,8 +31,8 @@ function Navbar() {
                     <h2 className="text-lg font-bold mb-4">Pages</h2>
                     <ul>
                         {menuItems.map((item) => (
-                            <li key={appMainURL + item.name} className="p-2 cursor-pointer hover:bg-slate-700">
-                                <Link to={appMainURL + item.url}>{item.name}</Link>
+                            <li key={"/" + appMainURL + "/" + item.name} className="p-2 cursor-pointer hover:bg-slate-700">
+                                <Link to={"/" + appMainURL + "/" + item.url}>{item.name}</Link>
                             </li>
                         ))}
                     </ul>

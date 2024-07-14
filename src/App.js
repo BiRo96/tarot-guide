@@ -1,5 +1,6 @@
 import deck from './decks/rw_original/theworld.jpg';
 import './App.css';
+import {appMainURL} from "./components/UrlHandler";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
         </p>
         <a
           className="text-blue-300"
-          href="/enc/home"
+          href={"/" + appMainURL + "/home"}
         >
           Open the encyclopedia
         </a>

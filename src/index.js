@@ -9,6 +9,7 @@ import NoPage from './pages/NoPage';
 import reportWebVitals from './reportWebVitals';
 import Cards from './pages/Cards';
 import Card from './pages/Card';
+import { appMainURL } from "./components/UrlHandler";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,7 +17,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/enc" element={<Layout />}>
+        <Route path={"/" + appMainURL} element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="home" element={<Home />} />
           <Route path="cards" element={<Cards />}/>
