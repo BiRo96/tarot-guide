@@ -23,13 +23,13 @@ function Card() {
         {name: "Arcana type", value: selectedCard.type},
         {name: "Numerology value", value: selectedCard.value},
         {name: "Meaning up", value: selectedCard.meaning_up},
-        {name: "Meaning rev", value: selectedCard.meaning_rev},
+        {name: "Meaning reversed", value: selectedCard.meaning_rev},
     ]
 
     return (
-        <>
-            <p className="text-3xl text-center">{selectedCard.name}</p>
-            <div className="grid grid-cols-8">
+        <div className="w-screen justify-center flex">
+            <div className="grid grid-cols-8 max-w-7xl">
+                <p className="text-3xl text-center col-span-8">{selectedCard.name}</p>
                 <div className="p-2 col-span-8 sm:col-span-4 lg:col-span-2 xl:col-span-1">
                     <img src={'/decks/' + deck + '/' + imageFinder(selectedCard.name)} className="my-5 pointer-events-none" alt="card" />
                 </div>
@@ -49,7 +49,7 @@ function Card() {
                     <p>{selectedCard.desc}</p>
                 </div>
             </div>
-        </>
+        </div>
     )
     
 }
