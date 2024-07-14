@@ -9,6 +9,7 @@ function Navbar() {
     let appMainURL = "/enc/"
 
     const menuItems = [
+        {name: "Home", url: "home"},
         {name: "Decks", url: "decks"},
         {name: "Cards and meanings", url: "cards"},
         {name: "Spread types", url: "spreads"}

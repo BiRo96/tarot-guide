@@ -7,6 +7,8 @@ import Layout from './Layout';
 import Home from './Home';
 import NoPage from './NoPage';
 import reportWebVitals from './reportWebVitals';
+import Cards from './Cards';
+import Card from './Card';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,6 +19,10 @@ root.render(
         <Route path="/enc" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="home" element={<Home />} />
+          <Route path="cards" element={<Cards />}/>
+          <Route path="cards/:deck" element={<Cards />}/>
+          <Route path="card/:short_name" element={<Card />}/>
+          <Route path="card/:short_name/:deck" element={<Card />}/>
         </Route>
         <Route path="*" element={<NoPage />} />
       </Routes>

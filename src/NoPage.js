@@ -26,7 +26,7 @@ function NoPage(params) {
     <div className="text-center">
       <header className="min-h-screen flex flex-col items-center justify-center text-2xl text-white bg-slate-800">
         <p className="">
-            404 <br/>page does not exist
+            <span className="text-red-500 text-7xl">404</span> <br/>page does not exist
         </p>
         <img src={img} className="my-10 pointer-events-none h-96 motion-safe:animate-spin-slow" alt="logo" />
         <p className="">
