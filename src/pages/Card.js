@@ -21,7 +21,7 @@ function Card() {
 
     const tableInfos = [
         {name: "Arcana type", value: selectedCard.type},
-        {name: "Numerology value", value: selectedCard.value},
+        {name: "Numerology value", value: selectedCard.value_int},
         {name: "Meaning up", value: selectedCard.meaning_up},
         {name: "Meaning reversed", value: selectedCard.meaning_rev},
     ]
