@@ -24,10 +24,13 @@ Amit ezzel a projekttel el szeretnék érni
 git clone https://github.com/BiRo96/tarot-guide.git
 cd tarot-guide
 npm install
-npm start
+````
+majd indítsd el az alkalmazást
+````bash
+npm run electron:serve
 ````
 És mehet a varázslat! :sparkler:  
-Ez egy egyszerű React web alkalmazás, amit majd electron-nal szeretnék működtetni, hogy asztali alkalmazást csináljak belőle.
+Ez egy egyszerű React web alkalmazás, amit electron-al asztali alkalmazásként tudunk működtetni.
 
 ## Megjegyzés
 Először is: nem vagyok szakértő.

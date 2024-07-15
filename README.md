@@ -24,10 +24,13 @@ Things I want to reach with this project
 git clone https://github.com/BiRo96/tarot-guide.git
 cd tarot-guide
 npm install
-npm start
+````
+then start the app
+````bash
+npm run electron:serve
 ````
 And make magic! :sparkler:  
-It's a simple React web app project that I will want to use with electron to make it a desktop app.
+It's a simple React web app project packed in electron to make it a desktop app.
 
 ## Note
 First of all: I'm not an expert.
