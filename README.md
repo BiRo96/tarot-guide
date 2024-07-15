@@ -22,6 +22,7 @@ Things I want to reach with this project
 ## How to install / contribute? 
 ````bash
 git clone https://github.com/BiRo96/tarot-guide.git
+cd tarot-guide
 npm install
 npm start
 ````
