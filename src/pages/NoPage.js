@@ -28,14 +28,14 @@ function NoPage(params) {
     <div className="text-center">
       <header className="min-h-screen flex flex-col items-center justify-center text-2xl text-white bg-slate-800">
         <p className="">
-            <Link className="text-blue-300" to="/home">{__("Back to Home")}</Link>
-        </p>
-        <p className="">
             <span className="text-red-500 text-7xl">404</span> <br/>{__("page does not exist")}
         </p>
         <img src={img} className="my-10 pointer-events-none h-96 motion-safe:animate-spin-slow" alt="logo" />
         <p className="">
           {msg}
+        </p>
+        <p className="">
+            <Link className="text-blue-300" to="/enc/home">{__("Back to Home")}</Link>
         </p>
       </header>
     </div>
