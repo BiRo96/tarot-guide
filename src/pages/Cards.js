@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import {imageFinder} from "../components/ImageHandler";
 import { Link, useParams } from 'react-router-dom';
 import {appMainURL, deckVerifier} from "../components/UrlHandler";
+import { __ } from "../components/LanguageHandler";
 import { getLang } from '../components/ConfigHandler';
 let card_data = require('../datas/' + getLang() + '/card_data.json');
 
@@ -32,7 +33,7 @@ function Cards() {
                     ))}
                 </>
                 ) : (
-                <p>Loading...</p>
+                <p>{__("Loading...")}</p>
                 )}
             </div>
         </div>
