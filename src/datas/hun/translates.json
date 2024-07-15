@@ -1,0 +1,55 @@
+{
+    "Menu": "Menü",
+    "Close": "Bezárás",
+    
+    "Language": "Nyelv",
+    "English": "Angol",
+    "Hungarian": "Magyar",
+
+    "Pages": "Oldalak",
+    "Home": "Kezdőlap",
+    "Decks": "Pakli",
+    "Cards and meanings": "Kártyák és jelentésük",
+    "Spread types": "Szórás típusok",
+
+    "Arcana type": "Arkánum",
+    "Numerology value": "Numerológiai érték",
+    "Meaning up": "Jelentés felfele",
+    "Meaning reversed": "Jelentés fordítva",
+
+    "This is not the real road you are looking for, you can't find anything here.": "Ez nem az igaz út, amit te keresel, itt nem találhatsz semmit.",
+    "It's so lonely here... You have to keep looking for the right way...": "Olyan magányos itt... Tovább kell keresned a megfelelő utat...",
+    "You seem a little stucked...": "Egy kicsit elakadtnak tűnsz...",
+    "page does not exist": "oldal nem található",
+
+    "Welcome to": "Üdvözöl a ",
+    "Tarot Guide App": "Tarot Útmutató Alkalmazás",
+    "This project is meant to be an encyclopedia for tarot decks, cards and the meanings behind them.": "Ez a projekt a tarot paklik, kártyák és a mögöttük rejlő jelentések enciklopédiája hivatott lenni.",
+    "The main puprose behind it is to gather all the important and interesting information about the Tarot.": "A fő célom, hogy összegyűjtsem az összes fontos és érdekes információt a Tarotról.",
+    "Hope you'll find it useful.": "Remélem hasznosnak találod.",
+    "Made with": "Készült:",
+    "and a lot of interest": "és sok-sok érdeklődéssel",
+    "by": " ",
+
+    "Want to contribute?": "Szeretnél besegíteni?",
+    "Check out the project's": "Projekt megtekintése:",
+    "GitHub repository": "GitHub Repository",
+    "or feel free to": "vagy nyugodtan",
+    "open an issue": "nyiss egy issue-t",
+
+    "Future plans": "Jövőbeli tervek",
+    "In my plans, there is a huge place for translations.": "A terveimben óriási helye van a fordításoknak.",
+    "I'd like to make this project multilingual to support as much different languages as I can.": "Szeretném ezt a projektet többnyelvűvé tenni, hogy minél több különböző nyelvet támogassak.",
+    "But I will need help for that, after I managed to make it possible to translate it.": "De ehhez segítségre lesz szükségem, miután sikerült lehetővé tennem a fordítást.",
+    "And of course I'm planning to figure out what kind of design I should use for this project.": "És persze azt is tervezem, hogy kitalálom, milyen dizájnt használjak ehhez a projekthez.",
+    "It is only the beginning, so it may change drasticly over time. :)": "Ez még csak a kezdet, így idővel drasztikusan megváltozhat. :)",
+
+    "Sources": "Források",
+    "Since I'm not an expert, I can't help you understand the Tarot cards by myself.": "Mivel nem vagyok szakértő, nem tudok segíteni a Tarot kártyák megértésében.",
+    "But I try to gather the most reliable sources the create an offline over-all guidebook app.": "De megpróbálom összegyűjteni a legmegbízhatóbb forrásokat, hogy létrehozzak egy offline általános útikönyv alkalmazást.",
+
+    "My main sources": "Fő forrásaim",
+    "I took the original Rider-Waite tarot deck images from here": "Az eredeti Rider-Waite tarot pakli képeit innen vettem.",
+    "It made the card datas and meanings summarized with keywords": "Ezzel csináltattam a kártya adatait és jelentéseit összefoglalását kulcsszavakban",
+    "Books about the Tarot": "Könyvek a Tarot-ról"
+}
