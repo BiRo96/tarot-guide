@@ -2,6 +2,7 @@ import TheHermit from "../decks/rw_original/thehermit.jpg";
 import TheMoon from "../decks/rw_original/themoon.jpg";
 import TheHangedMan from "../decks/rw_original/thehangedman.jpg";
 import { __ } from '../components/LanguageHandler';
+import { Link } from "react-router-dom";
 
 function NoPage(params) {
     // number between 1 and 3
@@ -26,6 +27,9 @@ function NoPage(params) {
     return (
     <div className="text-center">
       <header className="min-h-screen flex flex-col items-center justify-center text-2xl text-white bg-slate-800">
+        <p className="">
+            <Link className="text-blue-300" to="/home">{__("Back to Home")}</Link>
+        </p>
         <p className="">
             <span className="text-red-500 text-7xl">404</span> <br/>{__("page does not exist")}
         </p>
