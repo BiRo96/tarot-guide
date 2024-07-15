@@ -37,15 +37,11 @@ return <div className="w-screen flex justify-center">
                         <div className="bg-slate-800 text-white">(I took the original Rider-Waite tarot deck images from here)</div>
                     </li>
                     <li className="border-b border-black py-3 bg-slate-400">
-                        <div className="bg-slate-500"><Link to="https://tarotapi.dev/" className="text-blue-300">Tarot API</Link> by <Link to="https://github.com/ekelen" className="text-blue-300">Ekelen</Link> </div>
-                        <div className="bg-slate-700">[<Link to="https://app.swaggerhub.com/apis/ekswagger/tarot-api/1.3" className="text-blue-300">SwaggerHub</Link>][<Link to="https://github.com/ekelen/tarot-api" className="text-blue-300">GitHub</Link>] </div>
-                        <div className="bg-slate-800 text-white">(I took and modified/fixed the card datas and meanings from them)</div>
+                        <div className="bg-slate-500"><Link to="https://chatgpt.com/" className="text-blue-300">ChatGPT 4.0 / 3.5</Link></div>
+                        <div className="bg-slate-800 text-white">(It made the card datas and meanings summarized with keywords)</div>
                     </li>
                     <li className="border-b border-black py-3 bg-slate-400">
                         <div className="bg-slate-500">Books about the Tarot</div>
-                    </li>
-                    <li className="border-b border-black py-3 bg-slate-400">
-                        <div className="bg-slate-500"><Link to="https://chatgpt.com/" className="text-blue-300">ChatGPT</Link></div>
                     </li>
                     
                 </ul>
