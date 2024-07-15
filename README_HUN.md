@@ -19,6 +19,15 @@ Amit ezzel a projekttel el szeretnék érni
 - útmutatás a szórás típusokhoz
 - mindenek felett: a fent említett célok mindegyike többnyelvű támogatással.
 
+## Hogyan telepítsem / segítsek? 
+````bash
+git clone https://github.com/BiRo96/tarot-guide.git
+npm install
+npm start
+````
+És mehet a varázslat! :sparkler:  
+Ez egy egyszerű React web alkalmazás, amit majd electron-nal szeretnék működtetni, hogy asztali alkalmazást csináljak belőle.
+
 ## Megjegyzés
 Először is: nem vagyok szakértő.
 - Elfogadok segítséget ebben a projektben, ha van ötleted, vagy időd egy új funkció elkészítésére.

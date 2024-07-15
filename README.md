@@ -19,6 +19,15 @@ Things I want to reach with this project
 - guidance for spread types
 - most of all: all of these goals mentioned above with multilingual support
 
+## How to install / contribute? 
+````bash
+git clone https://github.com/BiRo96/tarot-guide.git
+npm install
+npm start
+````
+And make magic! :sparkler:  
+It's a simple React web app project that I will want to use with electron to make it a desktop app.
+
 ## Note
 First of all: I'm not an expert.
 - I accept help in this project, if you have ideas, or time to make a new feature.
