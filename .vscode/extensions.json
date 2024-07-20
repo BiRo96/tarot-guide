@@ -2,6 +2,7 @@
     "recommendations": [
         "bradlc.vscode-tailwindcss",
         "heybourn.headwind",
-        "formulahendry.auto-rename-tag"
+        "formulahendry.auto-rename-tag",
+        "eamodio.gitlens"
     ]
 }
