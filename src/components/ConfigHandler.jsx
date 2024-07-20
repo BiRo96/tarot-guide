@@ -3,27 +3,53 @@ let availableLang = [
     "hun",
 ]
 
+let availableDecks = [
+    "rw_original",
+]
+
 let defaultData = {
     "lang": "eng",
     "deck": "rw_original",
 }
+
 
 function reloadApp() {
     window.location.reload();
 }
 
 export function getLang() {
-    if (localStorage.getItem('lang') === null) {
-        localStorage.setItem('lang', defaultData["lang"]);
-    }
-    return localStorage.getItem('lang')
+    return get('lang')
 }
 
 export function setLang(lang) {
-    if (!availableLang.includes(lang)) {
+    set('lang', lang, availableLang)
+}
+
+export function getDeck() {
+    return get('deck')
+}
+
+export function setDeck(deck) {
+    set('deck', deck, availableDecks)
+}
+
+export function getAvailableDecks() {
+    return availableDecks
+}
+
+function set(param, value, availableValues) {
+    if (!availableValues.includes(value)) {
         return 0
     }
 
-    localStorage.setItem('lang', lang);
+    localStorage.setItem(param, value);
     reloadApp();
+    
+}
+
+function get(param) {
+    if (localStorage.getItem(param) === null) {
+        localStorage.setItem(param, defaultData[param]);
+    }
+    return localStorage.getItem(param)
 }

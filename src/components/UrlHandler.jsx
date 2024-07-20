@@ -1,3 +1,5 @@
+import { getDeck } from "./ConfigHandler"
+
 export const appMainURL = "enc"
 
 export function deckVerifier(deckName) {
@@ -5,7 +7,7 @@ export function deckVerifier(deckName) {
     if (deckName !== undefined) {
         deck = deckName
     } else {
-        deck = "rw_original"
+        deck = getDeck()
     }
     return deck
 }

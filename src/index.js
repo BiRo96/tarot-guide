@@ -10,6 +10,7 @@ import reportWebVitals from './reportWebVitals';
 import Cards from './pages/Cards';
 import Card from './pages/Card';
 import { appMainURL } from "./components/UrlHandler";
+import Decks from './pages/Decks';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,6 +25,7 @@ root.render(
           <Route path="cards/:deck" element={<Cards />}/>
           <Route path="card/:short_name" element={<Card />}/>
           <Route path="card/:short_name/:deck" element={<Card />}/>
+          <Route path="decks" element={<Decks />}/>
         </Route>
         <Route path="*" element={<NoPage />} />
       </Routes>
