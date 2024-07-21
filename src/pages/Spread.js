@@ -54,7 +54,7 @@ function Spread() {
                             </tr>
                             <tr className={trCSS}>
                                 {card_meanings.map(info => (
-                                    <div className="flex" key={info.key}>
+                                    <div className="flex even:bg-slate-400" key={info.key}>
                                         <div className={tdCSS}>{__("Card")} <span className="italic">#{info.key}</span></div>
                                         <div className={tdCSS}>{info.value}</div>
                                     </div>
@@ -63,17 +63,17 @@ function Spread() {
                         </tbody>
                     </table>
                 </div>
-                <div className="col-span-8 px-8 py-3 italic">
+                <div className="col-span-8 px-8 py-3 italic bg-slate-400 text-slate-900">
                     <p>{selectedSpread.short_description}</p>
                 </div>
-                <div className="col-span-8 px-8 py-3">
+                <div className="col-span-8 px-8 py-3 bg-slate-500">
                     {card_meanings.map(info => (
                         <div className="flex flex-col mb-4" key={info.key}>
-                            <div className="flex text-3xl">
+                            <div className="flex text-3xl text-slate-900">
                                 <h2 className="font-bold">{__("Card")} <span className="italic">#{info.key}</span>:</h2>
                                 <div className="ml-2">{info.value}</div>
                             </div>
-                            <div className="mx-3 my-2">{selectedSpread.card_descriptions[info.key]}</div>
+                            <div className="mx-3 my-2 text-slate-100">{selectedSpread.card_descriptions[info.key]}</div>
                         </div>
                     ))}
                 </div>
