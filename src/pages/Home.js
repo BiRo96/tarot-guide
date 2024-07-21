@@ -12,12 +12,12 @@ return <div className="flex justify-center w-screen">
             </div>
             <div className="p-2 mt-4">
                 <p>{__("Made with")} <b>React</b>, <b>Tailwind</b> {__("and a lot of interest")}</p>
-                <p>{__("by")} <Link to="https://github.com/BiRo96" className="text-blue-300"><b>BiRo</b></Link></p>
+                <p>{__("by")} <Link to="https://github.com/BiRo96" target="_blank" className="text-blue-300"><b>BiRo</b></Link></p>
             </div>
             <div className="p-2 mt-4">
                 <h3 className="text-2xl font-bold">{__("Want to contribute?")}</h3>
-                <p>{__("Check out the project's")} <Link to="https://github.com/BiRo96/tarot-guide" className="text-blue-300"><b>{__("GitHub repository")}</b></Link></p>
-                <p>{__("or feel free to")} <Link to="https://github.com/BiRo96/tarot-guide/issues" className="text-blue-300"><b>{__("open an issue")}</b></Link>.</p>
+                <p>{__("Check out the project's")} <Link to="https://github.com/BiRo96/tarot-guide" target="_blank" className="text-blue-300"><b>{__("GitHub repository")}</b></Link></p>
+                <p>{__("or feel free to")} <Link to="https://github.com/BiRo96/tarot-guide/issues" target="_blank" className="text-blue-300"><b>{__("open an issue")}</b></Link>.</p>
             </div>
             <div className="p-2 mt-4">
                 <h3 className="text-2xl font-bold">{__("Future plans")}</h3>
@@ -34,8 +34,9 @@ return <div className="flex justify-center w-screen">
                 <p className="mt-4 font-bold">{__("My main sources")}:</p>
                 <ul className="border-2 border-black">
                     <li className="py-3 border-b border-black bg-slate-400">
-                        <div className="bg-slate-500"><Link to="https://en.wikipedia.org/wiki/Rider%E2%80%93Waite_Tarot" target="_blank" className="text-blue-300">Wikipedia</Link></div>
-                        <div className="text-white bg-slate-800">({__("I took the original Rider-Waite tarot deck images from here")})</div>
+                        <div className="bg-slate-500">Wikipedia</div>
+                        <div className="text-white bg-slate-800"><Link to="https://en.wikipedia.org/wiki/Rider%E2%80%93Waite_Tarot" target="_blank" className="text-blue-300">({__("I took the original Rider-Waite tarot deck images from here")})</Link></div>
+                        <div className="text-white bg-slate-700"><Link to="https://commons.wikimedia.org/wiki/Category:The_Illustrated_Key_to_the_Tarot_(set_of_cards)" target="_blank" className="text-blue-300">({__("I took the \"The Illustrated Key to the Tarot\" Rider-Waite tarot deck images from here")})</Link></div>
                     </li>
                     <li className="py-3 border-b border-black bg-slate-400">
                         <div className="bg-slate-500"><Link to="https://chatgpt.com/" target="_blank" className="text-blue-300">ChatGPT 4.0 / 3.5</Link></div>
