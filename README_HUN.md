@@ -14,6 +14,9 @@ Amit ezzel a projekttel el szeretnék érni
 (Rider-Waite, Crowley Toth, stb.)
     - több al-paklit  
     (eredeti műalkotások, rajongók által készített műalkotások)
+        - Ez egy picit kemény dió, mert a szabadalmi és szerzőjogi dolgok miatt nem tehetek közzé a projektben bármilyen paklit, amit csak szeretnék.
+        - Ellenben ha neked van egy saját illusztrációd, amit viszont látnál a projektben, az számomra a megtiszteltetés, és természetesen beültethetjük a gyűjteménybe az engedélyeddel.
+            - Írni fogok rá egy dokumentációt, hogy miként adhatjátok hozzá saját paklitokat a projekthez, majd indithattok pull request-et, hogy magatok be tudjátok ültetni programba.
     - összehasonlíthatnánk az egyes paklik művészeti stílusát és jelentését.
 - offline adathalmaz készítése a kártyák mögötti jelentésekről, attól függően, hogy milyen paklit használsz (először csak a fő paklik lesznek a célom).
 - útmutatás a szórás típusokhoz
@@ -36,6 +39,5 @@ Ez egy egyszerű React web alkalmazás, amit electron-al asztali alkalmazáskén
 Először is: nem vagyok szakértő.
 - Elfogadok segítséget ebben a projektben, ha van ötleted, vagy időd egy új funkció elkészítésére.
 - A Tarot kártyák megértésében nem tudok segíteni, mivel én is még tanulom. Olvasok róla könyveket, és megpróbálok egy nyílt forráskódú "digitalizált útikönyvet" készíteni magamnak és nektek, akiket érdekel.
-- Remélem, tetszeni fog az igyekezetem, és nem lopjátok el ezt a projektet, hiszen egyáltalán nincs semmilyen licenccel védve.
 - Terveim szerint mindig ingyenes lesz, soha nem fog tartalmazni nem kívánt vagy zavaró reklámokat, de megpróbálok egy opciót készíteni, ha szeretnél nekem egy kis borravalót adni, vagy meghívni egy kávéra, megtiszteltetésként ezért a projektért...  
 **De CSAK** ha elérek egy olyan szintet a fejlesztésben, ahol elmondhatom, hogy jogosan fogadom el a kedvességeteket...  
