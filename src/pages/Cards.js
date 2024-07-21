@@ -36,16 +36,16 @@ function Cards() {
 
     return (
         <div className="flex justify-center w-screen">
-            <div className="grid grid-cols-8 max-w-7xl">
+            <div className="grid grid-cols-6 max-w-7xl">
                 {showSaveDeckButton(deck)}
                 
                 {cards ? (
                 <>
                     {cards["cards"].map(item => (
-                        <Link to={"/" + appMainURL + "/card/" + item.name_short}>
-                        <div className="flex flex-col p-2 text-center" key={item.name_short}>
+                        <Link className='col-span-8 lg:col-span-1 sm:col-span-3 md:col-span-2' to={"/" + appMainURL + "/card/" + item.name_short}>
+                        <div className="flex flex-col m-2 text-center rounded-lg bg-slate-400" key={item.name_short}>
                             <img src={'/decks/' + deck + '/' + imageFinderForRWCards(item.eng_name)} className="my-5 pointer-events-none" alt="card" />
-                            <p className="text-xl">{item.name}</p>
+                            <p className="p-4 text-xl rounded-b-lg bg-slate-200 text-slate-900">{item.name}</p>
                         </div>
                         </Link>
                     ))}
