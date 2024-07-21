@@ -1,10 +1,12 @@
-import TheHermit from "../decks/rw_original/thehermit.jpg";
-import TheMoon from "../decks/rw_original/themoon.jpg";
-import TheHangedMan from "../decks/rw_original/thehangedman.jpg";
+import { getDeck } from "../components/ConfigHandler";
 import { __ } from '../components/LanguageHandler';
 import { Link } from "react-router-dom";
 
 function NoPage(params) {
+    let TheHermit = "../decks/" + getDeck() + "/thehermit.jpg";
+    let TheMoon = "../decks/" + getDeck() + "/themoon.jpg";
+    let TheHangedMan = "../decks/" + getDeck() + "/thehangedman.jpg";
+
     // number between 1 and 3
     const rndInt = Math.floor(Math.random() * 3) + 1
 
@@ -26,11 +28,11 @@ function NoPage(params) {
 
     return (
     <div className="text-center">
-      <header className="min-h-screen flex flex-col items-center justify-center text-2xl text-white bg-slate-800">
+      <header className="flex flex-col justify-center items-center min-h-screen text-2xl text-white bg-slate-800">
         <p className="">
-            <span className="text-red-500 text-7xl">404</span> <br/>{__("page does not exist")}
+            <span className="text-7xl text-red-500">404</span> <br/>{__("page does not exist")}
         </p>
-        <img src={img} className="my-10 pointer-events-none h-96 motion-safe:animate-spin-slow" alt="logo" />
+        <img src={img} className="my-10 h-96 pointer-events-none motion-safe:animate-spin-slow" alt="logo" />
         <p className="">
           {msg}
         </p>

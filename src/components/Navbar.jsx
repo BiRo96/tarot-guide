@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { GiHamburgerMenu, GiCardJoker, GiStack, GiCardAceDiamonds, GiCardDraw } from "react-icons/gi";
+import { GiHamburgerMenu, GiCardJoker, GiStack, GiCardAceDiamonds, GiCardDraw, GiFastBackwardButton } from "react-icons/gi";
 import { Link } from 'react-router-dom';
 import { appMainURL } from "../components/UrlHandler";
 import { getLang, setLang } from "./ConfigHandler";
@@ -19,10 +19,17 @@ function Navbar() {
     return (
         <>
             <nav>
-                <div className='p-4'>
-                    <button onClick={() => setIsOpen(!isOpen)} className="flex hover:text-slate-400 focus:text-slate-400 focus:outline-none">
-                        <GiHamburgerMenu className="mr-2" size={24} /> {__("Menu")}
-                    </button>
+                <div className='flex'>
+                    <div className='p-4'>
+                        <button onClick={() => setIsOpen(!isOpen)} className="flex hover:text-slate-400 focus:text-slate-400 focus:outline-none">
+                            <GiHamburgerMenu className="mr-2" size={24} /> {__("Menu")}
+                        </button>
+                    </div>
+                    <div className='p-4'>
+                        <button onClick={() => window.history.back()} className="flex hover:text-slate-400 focus:text-slate-400 focus:outline-none">
+                            <GiFastBackwardButton className="mr-2" size={24} /> {__("Back")}
+                        </button>
+                    </div>
                 </div>
 
                 <div className="overflow-hidden fixed top-0 left-0 p-4 w-1/4 h-full text-white transition-transform duration-300 ease-in-out transform bg-slate-800"

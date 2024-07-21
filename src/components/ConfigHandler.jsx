@@ -5,6 +5,7 @@ let availableLang = [
 
 let availableDecks = [
     "rw_original",
+    "rw_illustrated_key_to_tarot",
 ]
 
 let defaultData = {
