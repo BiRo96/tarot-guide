@@ -16,5 +16,25 @@
             "3": "A Tarot kártyavetésben a harmadik lap feltárja a valószínű jövőt vagy a legjobb lehetséges kimenetelt, a múlt és a jelen által meghatározott pálya alapján, ahogyan az az első két kártyában tükröződik. Ez a kártya bepillantást nyújt a jövőbe, egy olyan víziót kínálva, amely lehetségesen kibontakozhat az eddig kialakult minták és hatások alapján. A kártya megvizsgálásával a kérdező érzékelheti a potenciális kimeneteket, és tájékozott döntéseket hozhat a jövőbeli útjával kapcsolatban."
         },
         "short_description": "Ez az egyszerű háromlapos Tarot kártyavetés egy egyenes út a múlt, jelen és jövő bármely helyzetbe való betekintéséhez. Kezdőknek vagy azoknak, akik épp most tanulják meg a Tarot kártyák olvasását, ez a vetés kiváló kiindulópont. Remek eszköz egyszerű kérdések esetén vagy a Tarot rajongóinak, akik szeretnék fejleszteni képességeiket a Tarot kártyák elemzésében."
+    },
+    {
+        "name": "A Kereszt (egyik változat)",        
+        "name_short": "tc1",
+        "img_name": "thecross.png",
+        "compatible_tarots": ["rw"],
+        "card_count": 4,
+        "card_meanings": {
+            "1": "Erről van szó",
+            "2": "Ezt ne tedd",
+            "3": "Ez lesz a helyes út",
+            "4": "Ide vezet"
+        },
+        "card_descriptions": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+        },
+        "short_description": "A kereszt egyszerűnek számít a lerakási módszerek között, ugyanakkor komplexitásában sem elhanyagolható. Lényegre törő és egyenes üzenetet közvetít, mely gyakran helyes irányba tereli a kérdezőt."
     }
 ]

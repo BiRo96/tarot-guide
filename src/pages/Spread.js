@@ -23,6 +23,36 @@ function Spread() {
         return { key, value };
     });
 
+    function cardDescriptions(card_meanings, card_descriptions) {
+        let desc
+
+        desc = card_meanings.map(info => {
+            if (
+                card_descriptions[info.key] === undefined || 
+                card_descriptions[info.key] === null || 
+                card_descriptions[info.key] === ""
+            ) {
+                // don't return anything, so desc won't get an empty record
+            } else {
+                return (
+                    <div className="flex flex-col mb-4" key={info.key}>
+                        <div className="flex text-3xl text-slate-900">
+                            <h2 className="font-bold">{__("Card")} <span className="italic">#{info.key}</span>:</h2>
+                            <div className="ml-2">{info.value}</div>
+                        </div>
+                        <div className="mx-3 my-2 text-slate-100">{selectedSpread.card_descriptions[info.key]}</div>
+                    </div>
+                )
+            }
+        })
+
+        return (
+            <div className="col-span-8 px-8 py-3 bg-slate-500">
+                {desc}
+            </div>
+        )
+    }
+
     return (
         <div className="flex justify-center w-screen">
             <div className="grid grid-cols-8 max-w-7xl">
@@ -66,17 +96,7 @@ function Spread() {
                 <div className="col-span-8 px-8 py-3 italic bg-slate-400 text-slate-900">
                     <p>{selectedSpread.short_description}</p>
                 </div>
-                <div className="col-span-8 px-8 py-3 bg-slate-500">
-                    {card_meanings.map(info => (
-                        <div className="flex flex-col mb-4" key={info.key}>
-                            <div className="flex text-3xl text-slate-900">
-                                <h2 className="font-bold">{__("Card")} <span className="italic">#{info.key}</span>:</h2>
-                                <div className="ml-2">{info.value}</div>
-                            </div>
-                            <div className="mx-3 my-2 text-slate-100">{selectedSpread.card_descriptions[info.key]}</div>
-                        </div>
-                    ))}
-                </div>
+                {cardDescriptions(card_meanings, selectedSpread.card_descriptions)}
             </div>
         </div>
     )

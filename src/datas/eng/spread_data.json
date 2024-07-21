@@ -16,5 +16,25 @@
             "3": "The third card in this Tarot spread reveals the likely future or the best possible outcome, based on the trajectory set by the past and present as reflected in the first two cards. This card provides a glimpse into the future, offering a vision of what could potentially unfold given the patterns and influences established in the past and currently present. By examining this card, the querent can gain a sense of the potential outcomes and make informed decisions about their future path."
         },
         "short_description": "This simple three-card Tarot spread offers a straightforward way to gain insights into the past, present, and future of any situation. For beginners or those just starting to learn how to read Tarot, this spread is an excellent starting point. It's a great tool for simple questions or for Tarot enthusiasts who want to hone their skills in assembling a Tarot reading."
+    },
+    {
+        "name": "The Cross (version one)",        
+        "name_short": "tc1",
+        "img_name": "thecross.png",
+        "compatible_tarots": ["rw"],
+        "card_count": 4,
+        "card_meanings": {
+            "1": "It happens now",
+            "2": "Don't do this",
+            "3": "It's the right way",
+            "4": "It brings you here"
+        },
+        "card_descriptions": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+        },
+        "short_description": "In the world of laying methods, the cross is considered simple, yet its complexity should not be overlooked. It conveys a concise and direct message that often steers the querent in the right direction."
     }
 ]
