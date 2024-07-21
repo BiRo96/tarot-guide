@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { GiHamburgerMenu, GiCardJoker, GiStack, GiCardAceDiamonds, GiCardDraw, GiFastBackwardButton } from "react-icons/gi";
+import { GiHamburgerMenu, GiCardJoker, GiStack, GiCardAceDiamonds, GiCardDraw, GiFastBackwardButton, GiIdCard } from "react-icons/gi";
 import { Link } from 'react-router-dom';
 import { appMainURL } from "../components/UrlHandler";
 import { getLang, setLang } from "./ConfigHandler";
@@ -14,6 +14,7 @@ function Navbar() {
         {name: __("Decks"), url: "decks", icon: <GiStack className="mr-2" size={24} />},
         {name: __("Cards and meanings"), url: "cards", icon: <GiCardJoker className="mr-2" size={24} />},
         {name: __("Spread types"), url: "spreads", icon: <GiCardDraw className="mr-2" size={24} />},
+        {name: __("About"), url: "about", icon: <GiIdCard className="mr-2" size={24} />},
     ]
 
     return (
