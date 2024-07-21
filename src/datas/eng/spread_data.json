@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Three Card Spread",
+        "name_short": "3cs",
+        "img_name": "threecardspread.png",
+        "compatible_tarots": ["rw", "ct"],
+        "card_count": 3,
+        "card_meanings": {
+            "1": "The Past",
+            "2": "The Present",
+            "3": "The Future"
+        },
+        "card_descriptions": {
+            "1": "The first card in this Tarot spread represents the past. It helps uncover past experiences or influences that are relevant to the querent's current path. By examining this card, you can gain insights into the events and circumstances that have shaped the querent's journey. This information can provide valuable context and help in understanding the present situation and making informed decisions",
+            "2": "The second card, positioned in the middle of the spread, symbolizes the present situation. It serves as a mirror reflecting the current state or immediate challenge confronting the querent. This card offers a snapshot of the circumstances and energies surrounding the querent at the present moment, providing valuable insights into what is currently unfolding in their life. Understanding this card can help the querent navigate the challenges or opportunities present in the here and now.",
+            "3": "The third card in this Tarot spread reveals the likely future or the best possible outcome, based on the trajectory set by the past and present as reflected in the first two cards. This card provides a glimpse into the future, offering a vision of what could potentially unfold given the patterns and influences established in the past and currently present. By examining this card, the querent can gain a sense of the potential outcomes and make informed decisions about their future path."
+        },
+        "short_description": "This simple three-card Tarot spread offers a straightforward way to gain insights into the past, present, and future of any situation. For beginners or those just starting to learn how to read Tarot, this spread is an excellent starting point. It's a great tool for simple questions or for Tarot enthusiasts who want to hone their skills in assembling a Tarot reading."
+    }
+]

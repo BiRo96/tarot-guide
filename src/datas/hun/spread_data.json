@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Három Lapos Szórás",        
+        "name_short": "3cs",
+        "img_name": "threecardspread.png",
+        "compatible_tarots": ["rw", "ct"],
+        "card_count": 3,
+        "card_meanings": {
+            "1": "A Múlt",
+            "2": "A Jelen",
+            "3": "A Jövő"
+        },
+        "card_descriptions": {
+            "1": "A Tarot kártyavetésben az első lap a múltat képviseli. Segít felfedezni azokat a múltbeli élményeket vagy hatásokat, amelyek relevánsak a kérdező jelenlegi útjában. A kártya megvizsgálásával betekintést nyerhetsz az eseményekbe és körülményekbe, amelyek alakították a kérdező útját. Ez az információ értékes kontextust nyújthat és segíthet megérteni a jelenlegi helyzetet, valamint tájékozott döntéseket hozni.",
+            "2": "A Tarot kártyavetésben a második lap a jelenlegi helyzetet képviseli. A kártya egy tükörkéntő szerepet játszik, amely visszajátszja a kérdező jelenlegi állapotát vagy azonnali kihívását. Ez a kártya egy pillanatképet ad a kérdező környezetéről és energiáiról, amelyek a jelenlegi pillanatban zajlanak le életében. A kártya megértésével segíthet a kérdezőnek navigálni a jelenlegi kihívásokon vagy lehetőségeken keresztül.",
+            "3": "A Tarot kártyavetésben a harmadik lap feltárja a valószínű jövőt vagy a legjobb lehetséges kimenetelt, a múlt és a jelen által meghatározott pálya alapján, ahogyan az az első két kártyában tükröződik. Ez a kártya bepillantást nyújt a jövőbe, egy olyan víziót kínálva, amely lehetségesen kibontakozhat az eddig kialakult minták és hatások alapján. A kártya megvizsgálásával a kérdező érzékelheti a potenciális kimeneteket, és tájékozott döntéseket hozhat a jövőbeli útjával kapcsolatban."
+        },
+        "short_description": "Ez az egyszerű háromlapos Tarot kártyavetés egy egyenes út a múlt, jelen és jövő bármely helyzetbe való betekintéséhez. Kezdőknek vagy azoknak, akik épp most tanulják meg a Tarot kártyák olvasását, ez a vetés kiváló kiindulópont. Remek eszköz egyszerű kérdések esetén vagy a Tarot rajongóinak, akik szeretnék fejleszteni képességeiket a Tarot kártyák elemzésében."
+    }
+]

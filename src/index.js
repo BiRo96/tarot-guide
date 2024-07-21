@@ -11,6 +11,8 @@ import Cards from './pages/Cards';
 import Card from './pages/Card';
 import { appMainURL } from "./components/UrlHandler";
 import Decks from './pages/Decks';
+import Spreads from './pages/Spreads';
+import Spread from './pages/Spread';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -26,6 +28,8 @@ root.render(
           <Route path="card/:short_name" element={<Card />}/>
           <Route path="card/:short_name/:deck" element={<Card />}/>
           <Route path="decks" element={<Decks />}/>
+          <Route path="spreads/" element={<Spreads />}/>
+          <Route path="spread/:short_name" element={<Spread />}/>
         </Route>
         <Route path="*" element={<NoPage />} />
       </Routes>

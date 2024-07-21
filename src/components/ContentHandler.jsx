@@ -1,4 +1,4 @@
-export function imageFinder(cardName) {
+export function imageFinderForRWCards(cardName) {
     let cardImageName
 
     switch (cardName) {
@@ -16,4 +16,23 @@ export function imageFinder(cardName) {
     }
 
     return (cardImageName).toLowerCase().replace(/ /g, '') + '.jpg'
+}
+
+export function getDeckTypeByCode(code) {
+    let res
+    switch (code) {
+        case "rw":
+            res = "Rider-Waite"
+            break;
+    
+        case "ct":
+            res = "Crowley-Toth"
+            break;
+
+        default:
+            res = code
+            break;
+    }
+    
+    return res
 }

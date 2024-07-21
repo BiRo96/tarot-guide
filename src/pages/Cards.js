@@ -1,6 +1,6 @@
 import React from 'react';
 import { useEffect, useState } from "react";
-import {imageFinder} from "../components/ImageHandler";
+import {imageFinderForRWCards} from "../components/ContentHandler";
 import { Link, useParams } from 'react-router-dom';
 import {appMainURL, deckVerifier} from "../components/UrlHandler";
 import { __ } from "../components/LanguageHandler";
@@ -44,7 +44,7 @@ function Cards() {
                     {cards["cards"].map(item => (
                         <Link to={"/" + appMainURL + "/card/" + item.name_short}>
                         <div className="flex flex-col p-2 text-center" key={item.name_short}>
-                            <img src={'/decks/' + deck + '/' + imageFinder(item.eng_name)} className="my-5 pointer-events-none" alt="card" />
+                            <img src={'/decks/' + deck + '/' + imageFinderForRWCards(item.eng_name)} className="my-5 pointer-events-none" alt="card" />
                             <p className="text-xl">{item.name}</p>
                         </div>
                         </Link>

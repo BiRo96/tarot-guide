@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import { imageFinder } from "../components/ImageHandler";
+import { imageFinderForRWCards } from "../components/ContentHandler";
 import { deckVerifier } from "../components/UrlHandler";
 import { appMainURL } from "../components/UrlHandler";
 import { __ } from "../components/LanguageHandler";
@@ -33,7 +33,7 @@ function Card() {
             <div className="grid grid-cols-8 max-w-7xl">
                 <p className="text-3xl text-center col-span-8">{selectedCard.name}</p>
                 <div className="p-2 col-span-8 sm:col-span-4 lg:col-span-2 xl:col-span-1">
-                    <img src={'/decks/' + deck + '/' + imageFinder(selectedCard.eng_name)} className="my-5 pointer-events-none" alt="card" />
+                    <img src={'/decks/' + deck + '/' + imageFinderForRWCards(selectedCard.eng_name)} className="my-5 pointer-events-none" alt="card" />
                 </div>
                 <div className="p-2 py-10 col-span-8 sm:col-span-4 lg:col-span-6 xl:col-span-7">
                     <table className="w-full">

@@ -3,9 +3,9 @@ import { __ } from '../components/LanguageHandler';
 import { Link } from "react-router-dom";
 
 function NoPage(params) {
-    let TheHermit = "../decks/" + getDeck() + "/thehermit.jpg";
-    let TheMoon = "../decks/" + getDeck() + "/themoon.jpg";
-    let TheHangedMan = "../decks/" + getDeck() + "/thehangedman.jpg";
+    let TheHermit = "/decks/" + getDeck() + "/thehermit.jpg";
+    let TheMoon = "/decks/" + getDeck() + "/themoon.jpg";
+    let TheHangedMan = "/decks/" + getDeck() + "/thehangedman.jpg";
 
     // number between 1 and 3
     const rndInt = Math.floor(Math.random() * 3) + 1

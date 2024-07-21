@@ -40,7 +40,11 @@ return <div className="flex justify-center w-screen">
                     </li>
                     <li className="py-3 border-b border-black bg-slate-400">
                         <div className="bg-slate-500"><Link to="https://chatgpt.com/" target="_blank" className="text-blue-300">ChatGPT 4.0 / 3.5</Link></div>
-                        <div className="text-white bg-slate-800">({__("It made the card datas and meanings summarized with keywords")})</div>
+                        <div className="text-white bg-slate-800">({__("It made the card and spread datas and meanings summarized with keywords")})</div>
+                    </li>
+                    <li className="py-3 border-b border-black bg-slate-400">
+                        <div className="bg-slate-500"><Link to="https://bing.com/chat" target="_blank" className="text-blue-300">Bing Copilot</Link></div>
+                        <div className="text-white bg-slate-800">({__("It generated the unique card back for this project")})</div>
                     </li>
                     <li className="py-3 border-b border-black bg-slate-400">
                         <div className="bg-slate-500">{__("Books about the Tarot")}</div>
